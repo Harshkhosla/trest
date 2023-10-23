@@ -43,7 +43,7 @@ const SignUp  = ()=>{
         }
         // const obj = {firstname,lastname,password,email,city,stateName,mobile,branch,pic:url}
         // console.log(obj)
-        fetch("http://localhost:5000/signup",{
+        fetch("https://voting-backend-production.up.railway.app/signup",{
             method:"post",
             headers:{
                 "Content-Type":"application/json"

@@ -23,7 +23,7 @@ const Chart = () => {
     )
 
     useEffect(()=>{
-        fetch('http://localhost:5000/allpost',{
+        fetch('https://voting-backend-production.up.railway.app/allpost',{
             headers:{
                 "Authorization":"Bearer "+localStorage.getItem("jwt")
             }
